@@ -3,7 +3,6 @@ public class CountDigits {
     public int countDigits(int num) {
         int count = 0;
         while (num > 0) {
-            int n = num % 10;
             count++;
             num /= 10;
         }
